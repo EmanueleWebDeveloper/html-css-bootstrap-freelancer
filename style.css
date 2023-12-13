@@ -6,7 +6,17 @@
     color: white;
     background-color:#2c3e50 ;
     fill: white;
+    width: 100%;
 }
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: initial !important;
+    align-items: end;
+    
+}
+
+
 
 .linea{
     width: 50px;
@@ -14,13 +24,38 @@
     background-color: white;
 }
 
+.border{
+    border-bottom: 1px solid gray;
+}
 .row-1{
     background-color: #1abc9c;
+}
+
+.margine{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#send{
+    border: none;
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+
+div.align-items-start li.margine-2 {
+    padding-bottom: 50px!important;
+}
+
+.margine-2{
+    margin-bottom: 50px;
 }
 
 .row-2{
     background-color: white;
     color: black;
+    
 }
 
 .linea2{
@@ -32,6 +67,7 @@
 .pb-4{
     border-bottom: 1px solid gray;
 }
+
 
 .row-4{
     background-color: #3a546d;
